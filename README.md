@@ -1,2 +1,2 @@
 # full-stack-springboot-react-project
-comment on books
+Simple site for talking about books.
