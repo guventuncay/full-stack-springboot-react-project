@@ -16,7 +16,7 @@ import java.util.List;
 @Configuration
 public class Config {
 
-    /*// Add test Users
+    // Add test Users
     @Bean
     CommandLineRunner commandLineRunner(UserRepository userRepository, BookRepository bookRepository, CommentRepository commentRepository) {
         return args -> {
@@ -49,7 +49,7 @@ public class Config {
             commentRepository.saveAll(List.of(comment1, comment2, comment3, comment4));
 
         };
-    }*/
+    }
 
 
 }

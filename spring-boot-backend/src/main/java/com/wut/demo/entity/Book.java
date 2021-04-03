@@ -37,12 +37,11 @@ public class Book {
     public Book() {
     }
 
-    public Book(String name, String author, int pageCount, LocalDate releaseDate,String imageUrl) {
+    public Book(String name, String author, int pageCount, LocalDate releaseDate) {
         this.name = name;
         this.author = author;
         this.pageCount = pageCount;
         this.releaseDate = releaseDate;
-        this.imageUrl = imageUrl;
     }
 
 

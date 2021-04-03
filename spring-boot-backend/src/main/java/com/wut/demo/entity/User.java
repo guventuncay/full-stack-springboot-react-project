@@ -34,10 +34,9 @@ public class User {
 
     }
 
-    public User(String firstName, String lastName, String imageUrl) {
+    public User(String firstName, String lastName) {
         this.FirstName = firstName;
         this.LastName = lastName;
-        this.imageUrl = imageUrl;
     }
 }
 
